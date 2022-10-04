@@ -92,3 +92,18 @@ if __name__ == '__main__':
     ordr = sorted(scores, reverse=True)
     print(ordr[1])
 ```
+
+
+
+## Solution 4
+
+```python
+if __name__=='__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    myset=set(arr)
+    mylist=list(myset)
+    mylist.sort(reverse=True)
+    print(mylist[1])
+```
+
